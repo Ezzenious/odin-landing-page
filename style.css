@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .top, footer {
     background: #1f2937;
     /* Temporary */
