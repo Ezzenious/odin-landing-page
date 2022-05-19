@@ -12,6 +12,18 @@ div, footer {
     color: white;
 }
 
+header, nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .quotes {
     background: #e5e7eb;
 }
