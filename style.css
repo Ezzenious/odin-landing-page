@@ -17,7 +17,7 @@ div, footer {
     display: flex;
 }
 
-.info-content {
+.info-content, footer {
     text-align: center;
 }
 
