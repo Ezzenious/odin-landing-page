@@ -9,6 +9,7 @@ footer {
 }
 
 .top,
+.cta,
 footer {
     background: #1f2937;
     color: #f9faf8;
@@ -19,7 +20,8 @@ footer {
     display: flex;
 }
 
-.top-content, .top-content div{
+.top-content,
+.top-content div {
     padding: 0;
 }
 
@@ -28,7 +30,7 @@ footer {
     font-weight: bolder;
 }
 
-.header-logo{
+.header-logo {
     padding: 0;
     font-size: 24px;
     font-weight: bold;
@@ -36,7 +38,8 @@ footer {
     align-items: center;
 }
 
-.hero-secondary, li {
+.hero-secondary,
+li {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -78,9 +81,20 @@ li {
     margin: auto;
 }
 
+.cta {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
 .cta,
 button {
     background: #3882f6;
+    margin: 0 auto;
+}
+
+.cta div {
+    max-width: 50%;
 }
 
 button {
