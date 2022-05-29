@@ -18,6 +18,7 @@ footer {
 .top-content,
 .info-content {
     display: flex;
+    align-items: center;
 }
 
 .top-content,
