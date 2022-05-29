@@ -56,6 +56,11 @@ footer {
     color: #1f2937;
 }
 
+.info img {
+    border: solid 3px #3882f6;
+    border-radius: 10px;
+}
+
 header,
 nav ul {
     display: flex;
