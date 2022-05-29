@@ -3,30 +3,50 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-div, footer {
+div,
+footer {
     padding: 16px;
 }
 
-.top, footer {
+.top,
+footer {
     background: #1f2937;
-    /* Temporary */
-    color: white;
+    color: #f9faf8;
 }
 
-.top-content, .info-content {
+.top-content,
+.info-content {
     display: flex;
 }
 
-.info, footer {
+.hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-secondary, li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info,
+footer {
     text-align: center;
 }
 
 .info h2 {
     font-size: 36px;
+    font-weight: bolder;
     color: #1f2937;
 }
 
-header, nav ul {
+header,
+nav ul {
     display: flex;
     justify-content: space-between;
     gap: 16px;
@@ -43,6 +63,7 @@ li {
     background: #e5e7eb;
     color: #1f2937;
     font-size: 36px;
+    font-weight: lighter;
     font-style: italic;
 }
 
@@ -51,6 +72,19 @@ li {
     margin: auto;
 }
 
-.cta {
+.cta,
+button {
     background: #3882f6;
+}
+
+button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.cta button {
+    border: solid 2px #f9faf8;
 }
